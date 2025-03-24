@@ -1,0 +1,3 @@
+-I/opt/homebrew/Cellar/raylib/5.5/include
+-std=c17
+
