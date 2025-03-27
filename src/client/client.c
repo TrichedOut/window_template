@@ -7,7 +7,11 @@
   * run client-side code
   */
 void client() {
-  runWindow();
+  if (initWindow()) {
+    while (windowIsActive()) {
+      render();
+    }
+  }
   
   // tell the server to stop
   sendPacket(clientPipe, HALT_PACKET, "");

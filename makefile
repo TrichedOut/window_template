@@ -11,7 +11,7 @@ all: main
 # make all and run
 run: all
 	@echo
-	./build/main
+	cd build; ./main
 
 # compile all object files together
 main: $(OBJ_FILES)

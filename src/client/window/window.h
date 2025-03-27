@@ -2,7 +2,9 @@
 #define WINDOW
 
 
-void runWindow();
+int initWindow();
+void render();
+int windowIsActive();
 
 
 #endif
